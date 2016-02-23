@@ -1,0 +1,13 @@
+@mixin font-size($input-size){
+  @if(variable_exists($font-sizes)){
+    @each $breakpoint, $sizes in $font-sizes{
+      @each $size, $value in $sizes{
+        @if($size == $input-size){
+          @include breakpoint($breakpoint){
+            font-size: rem-calc($value);
+          }
+        }
+      }
+    }
+  }
+}

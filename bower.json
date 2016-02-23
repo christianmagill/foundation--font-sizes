@@ -1,0 +1,29 @@
+{
+  "name": "foundation-font-sizes",
+  "version": "1.0.0",
+  "main": [
+    "scss/main.scss"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.1.2"
+  },
+  "ignore": [
+    "config",
+    "docs",
+    "gulp",
+    "lib",
+    "test",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "meteor-README.md",
+    "package.js",
+    "package.json",
+    "sache.json",
+    ".editorconfig",
+    ".npm",
+    ".gitignore",
+    ".npmignore",
+    ".versions"
+  ]
+}
