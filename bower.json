@@ -1,5 +1,5 @@
 {
-  "name": "foundation-font-sizes",
+  "name": "foundation--font-sizes",
   "version": "1.0.0",
   "main": [
     "scss/main.scss"
